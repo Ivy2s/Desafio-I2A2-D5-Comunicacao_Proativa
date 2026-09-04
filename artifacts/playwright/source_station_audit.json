@@ -1,0 +1,2936 @@
+{
+  "collected_at": "2026-09-04T19:42:20.465Z",
+  "source": "https://wis2bra.inmet.gov.br/oapi/collections/urn:wmo:md:br-inmet:synop/items",
+  "results": [
+    {
+      "capital": "Macapá",
+      "uf": "AP",
+      "latitude": 0.0349,
+      "longitude": -51.0694,
+      "url": "https://wis2bra.inmet.gov.br/oapi/collections/urn:wmo:md:br-inmet:synop/items?f=json&bbox=-51.5694%2C-0.4651%2C-50.5694%2C0.5349&limit=200&sortby=-reportTime",
+      "http_status": 200,
+      "stations": [
+        {
+          "station": "0-20000-0-82099",
+          "latest_report_time": "2026-09-04T12:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -51.07194,
+            0.05056
+          ],
+          "distance_squared_to_capital": 0.0002516871999999808,
+          "report_count": 2,
+          "available_report_times": [
+            "2026-09-04T12:00:00Z",
+            "2026-09-04T06:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "wind_direction",
+            "wind_speed",
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "24hour_pressure_change",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "horizontal_visibility",
+            "cloud_cover_total",
+            "cloud_amount",
+            "height_of_base_of_cloud",
+            "cloud_type",
+            "cloud_type",
+            "cloud_type",
+            "wind_direction",
+            "wind_speed",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "total_precipitation_or_total_water_equivalent"
+          ],
+          "latest_report_measurements": {
+            "wind_speed": {
+              "value": 4.1000000000000005,
+              "units": "m/s"
+            },
+            "air_temperature": {
+              "value": 28.8,
+              "units": "Celsius"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-20000-0-82099",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        },
+        {
+          "station": "0-76-0-1600303000000495",
+          "latest_report_time": "2026-09-04T19:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -51.08889,
+            0.035
+          ],
+          "distance_squared_to_capital": 0.0003798700999999051,
+          "report_count": 14,
+          "available_report_times": [
+            "2026-09-04T19:00:00Z",
+            "2026-09-04T18:00:00Z",
+            "2026-09-04T17:00:00Z",
+            "2026-09-04T16:00:00Z",
+            "2026-09-04T15:00:00Z",
+            "2026-09-04T14:00:00Z",
+            "2026-09-04T13:00:00Z",
+            "2026-09-04T12:00:00Z",
+            "2026-09-04T11:00:00Z",
+            "2026-09-04T10:00:00Z",
+            "2026-09-04T09:00:00Z",
+            "2026-09-04T08:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "characteristic_of_pressure_tendency",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "wind_direction",
+            "wind_speed",
+            "maximum_wind_gust_speed",
+            "maximum_temperature_at_height_and_over_period_specified",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "net_radiation_integrated_over_period_specified"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 32.2,
+              "units": "Celsius"
+            },
+            "wind_speed": {
+              "value": 3.4000000000000004,
+              "units": "m/s"
+            },
+            "maximum_wind_gust_speed": {
+              "value": 6.9,
+              "units": "m/s"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-76-0-1600303000000495",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        }
+      ],
+      "errors": [],
+      "provider_selected_station": "0-20000-0-82099",
+      "provider_selected_latest_report_time": "2026-09-04T12:00:00Z",
+      "nearest_station_candidates": [
+        {
+          "station": "0-20000-0-82099",
+          "latest_report_time": "2026-09-04T12:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -51.07194,
+            0.05056
+          ],
+          "distance_squared_to_capital": 0.0002516871999999808,
+          "report_count": 2,
+          "available_report_times": [
+            "2026-09-04T12:00:00Z",
+            "2026-09-04T06:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "wind_direction",
+            "wind_speed",
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "24hour_pressure_change",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "horizontal_visibility",
+            "cloud_cover_total",
+            "cloud_amount",
+            "height_of_base_of_cloud",
+            "cloud_type",
+            "cloud_type",
+            "cloud_type",
+            "wind_direction",
+            "wind_speed",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "total_precipitation_or_total_water_equivalent"
+          ],
+          "latest_report_measurements": {
+            "wind_speed": {
+              "value": 4.1000000000000005,
+              "units": "m/s"
+            },
+            "air_temperature": {
+              "value": 28.8,
+              "units": "Celsius"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-20000-0-82099",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        },
+        {
+          "station": "0-76-0-1600303000000495",
+          "latest_report_time": "2026-09-04T19:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -51.08889,
+            0.035
+          ],
+          "distance_squared_to_capital": 0.0003798700999999051,
+          "report_count": 14,
+          "available_report_times": [
+            "2026-09-04T19:00:00Z",
+            "2026-09-04T18:00:00Z",
+            "2026-09-04T17:00:00Z",
+            "2026-09-04T16:00:00Z",
+            "2026-09-04T15:00:00Z",
+            "2026-09-04T14:00:00Z",
+            "2026-09-04T13:00:00Z",
+            "2026-09-04T12:00:00Z",
+            "2026-09-04T11:00:00Z",
+            "2026-09-04T10:00:00Z",
+            "2026-09-04T09:00:00Z",
+            "2026-09-04T08:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "characteristic_of_pressure_tendency",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "wind_direction",
+            "wind_speed",
+            "maximum_wind_gust_speed",
+            "maximum_temperature_at_height_and_over_period_specified",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "net_radiation_integrated_over_period_specified"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 32.2,
+              "units": "Celsius"
+            },
+            "wind_speed": {
+              "value": 3.4000000000000004,
+              "units": "m/s"
+            },
+            "maximum_wind_gust_speed": {
+              "value": 6.9,
+              "units": "m/s"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-76-0-1600303000000495",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        }
+      ]
+    },
+    {
+      "capital": "Manaus",
+      "uf": "AM",
+      "latitude": -3.119,
+      "longitude": -60.0217,
+      "url": "https://wis2bra.inmet.gov.br/oapi/collections/urn:wmo:md:br-inmet:synop/items?f=json&bbox=-60.5217%2C-3.619%2C-59.5217%2C-2.619&limit=200&sortby=-reportTime",
+      "http_status": 200,
+      "stations": [
+        {
+          "station": "0-76-0-1302603000000003",
+          "latest_report_time": "2026-09-04T19:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -60.01639,
+            -3.10333
+          ],
+          "distance_squared_to_capital": 0.000273745000000018,
+          "report_count": 13,
+          "available_report_times": [
+            "2026-09-04T19:00:00Z",
+            "2026-09-04T18:00:00Z",
+            "2026-09-04T17:00:00Z",
+            "2026-09-04T16:00:00Z",
+            "2026-09-04T15:00:00Z",
+            "2026-09-04T14:00:00Z",
+            "2026-09-04T13:00:00Z",
+            "2026-09-04T12:00:00Z",
+            "2026-09-04T11:00:00Z",
+            "2026-09-04T10:00:00Z",
+            "2026-09-04T09:00:00Z",
+            "2026-09-04T08:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "relative_humidity",
+            "wind_direction",
+            "wind_speed",
+            "maximum_wind_gust_speed",
+            "maximum_temperature_at_height_and_over_period_specified",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "net_radiation_integrated_over_period_specified",
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "characteristic_of_pressure_tendency",
+            "air_temperature",
+            "dewpoint_temperature"
+          ],
+          "latest_report_measurements": {
+            "wind_speed": {
+              "value": 2.6,
+              "units": "m/s"
+            },
+            "maximum_wind_gust_speed": {
+              "value": 7.800000000000001,
+              "units": "m/s"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            },
+            "air_temperature": {
+              "value": 36.4,
+              "units": "Celsius"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-76-0-1302603000000003",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        },
+        {
+          "station": "0-20000-0-82332",
+          "latest_report_time": "2026-09-04T12:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -59.98,
+            -3.13
+          ],
+          "distance_squared_to_capital": 0.0018598900000004802,
+          "report_count": 1,
+          "available_report_times": [
+            "2026-09-04T12:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "24hour_pressure_change",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "horizontal_visibility",
+            "cloud_cover_total",
+            "cloud_amount",
+            "cloud_type",
+            "cloud_type",
+            "cloud_type",
+            "wind_direction",
+            "wind_speed",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "total_precipitation_or_total_water_equivalent"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 31.5,
+              "units": "Celsius"
+            },
+            "wind_speed": {
+              "value": 4.1000000000000005,
+              "units": "m/s"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-20000-0-82332",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        },
+        {
+          "station": "0-20000-0-82333",
+          "latest_report_time": "2026-09-04T12:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -60.05,
+            -3.03333
+          ],
+          "distance_squared_to_capital": 0.008140238899999746,
+          "report_count": 1,
+          "available_report_times": [
+            "2026-09-04T12:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "wind_direction",
+            "wind_speed",
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "24hour_pressure_change",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "horizontal_visibility",
+            "cloud_cover_total",
+            "cloud_amount",
+            "cloud_type",
+            "cloud_type",
+            "cloud_type",
+            "wind_direction",
+            "wind_speed",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "total_precipitation_or_total_water_equivalent"
+          ],
+          "latest_report_measurements": {
+            "wind_speed": {
+              "value": 3.1,
+              "units": "m/s"
+            },
+            "air_temperature": {
+              "value": 29.4,
+              "units": "Celsius"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-20000-0-82333",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        }
+      ],
+      "errors": [],
+      "provider_selected_station": "0-76-0-1302603000000003",
+      "provider_selected_latest_report_time": "2026-09-04T19:00:00Z",
+      "nearest_station_candidates": [
+        {
+          "station": "0-76-0-1302603000000003",
+          "latest_report_time": "2026-09-04T19:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -60.01639,
+            -3.10333
+          ],
+          "distance_squared_to_capital": 0.000273745000000018,
+          "report_count": 13,
+          "available_report_times": [
+            "2026-09-04T19:00:00Z",
+            "2026-09-04T18:00:00Z",
+            "2026-09-04T17:00:00Z",
+            "2026-09-04T16:00:00Z",
+            "2026-09-04T15:00:00Z",
+            "2026-09-04T14:00:00Z",
+            "2026-09-04T13:00:00Z",
+            "2026-09-04T12:00:00Z",
+            "2026-09-04T11:00:00Z",
+            "2026-09-04T10:00:00Z",
+            "2026-09-04T09:00:00Z",
+            "2026-09-04T08:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "relative_humidity",
+            "wind_direction",
+            "wind_speed",
+            "maximum_wind_gust_speed",
+            "maximum_temperature_at_height_and_over_period_specified",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "net_radiation_integrated_over_period_specified",
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "characteristic_of_pressure_tendency",
+            "air_temperature",
+            "dewpoint_temperature"
+          ],
+          "latest_report_measurements": {
+            "wind_speed": {
+              "value": 2.6,
+              "units": "m/s"
+            },
+            "maximum_wind_gust_speed": {
+              "value": 7.800000000000001,
+              "units": "m/s"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            },
+            "air_temperature": {
+              "value": 36.4,
+              "units": "Celsius"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-76-0-1302603000000003",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        },
+        {
+          "station": "0-20000-0-82332",
+          "latest_report_time": "2026-09-04T12:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -59.98,
+            -3.13
+          ],
+          "distance_squared_to_capital": 0.0018598900000004802,
+          "report_count": 1,
+          "available_report_times": [
+            "2026-09-04T12:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "24hour_pressure_change",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "horizontal_visibility",
+            "cloud_cover_total",
+            "cloud_amount",
+            "cloud_type",
+            "cloud_type",
+            "cloud_type",
+            "wind_direction",
+            "wind_speed",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "total_precipitation_or_total_water_equivalent"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 31.5,
+              "units": "Celsius"
+            },
+            "wind_speed": {
+              "value": 4.1000000000000005,
+              "units": "m/s"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-20000-0-82332",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        },
+        {
+          "station": "0-20000-0-82333",
+          "latest_report_time": "2026-09-04T12:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -60.05,
+            -3.03333
+          ],
+          "distance_squared_to_capital": 0.008140238899999746,
+          "report_count": 1,
+          "available_report_times": [
+            "2026-09-04T12:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "wind_direction",
+            "wind_speed",
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "24hour_pressure_change",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "horizontal_visibility",
+            "cloud_cover_total",
+            "cloud_amount",
+            "cloud_type",
+            "cloud_type",
+            "cloud_type",
+            "wind_direction",
+            "wind_speed",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "total_precipitation_or_total_water_equivalent"
+          ],
+          "latest_report_measurements": {
+            "wind_speed": {
+              "value": 3.1,
+              "units": "m/s"
+            },
+            "air_temperature": {
+              "value": 29.4,
+              "units": "Celsius"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-20000-0-82333",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        }
+      ]
+    },
+    {
+      "capital": "Goiânia",
+      "uf": "GO",
+      "latitude": -16.6869,
+      "longitude": -49.2648,
+      "url": "https://wis2bra.inmet.gov.br/oapi/collections/urn:wmo:md:br-inmet:synop/items?f=json&bbox=-49.7648%2C-17.1869%2C-48.7648%2C-16.1869&limit=200&sortby=-reportTime",
+      "http_status": 200,
+      "stations": [
+        {
+          "station": "0-20000-0-83423",
+          "latest_report_time": "2026-09-04T18:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -49.23333,
+            -16.65
+          ],
+          "distance_squared_to_capital": 0.002351970900000131,
+          "report_count": 2,
+          "available_report_times": [
+            "2026-09-04T18:00:00Z",
+            "2026-09-04T12:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "24hour_pressure_change",
+            "air_temperature",
+            "dewpoint_temperature",
+            "horizontal_visibility",
+            "cloud_cover_total",
+            "cloud_amount",
+            "height_of_base_of_cloud",
+            "cloud_type",
+            "cloud_type",
+            "cloud_type",
+            "present_weather",
+            "past_weather1",
+            "past_weather2",
+            "total_precipitation_or_total_water_equivalent",
+            "wind_direction",
+            "wind_speed"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 36.4,
+              "units": "Celsius"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            },
+            "wind_speed": {
+              "value": 2.1,
+              "units": "m/s"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-20000-0-83423",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        },
+        {
+          "station": "0-76-0-5208707000000007",
+          "latest_report_time": "2026-09-04T19:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -49.22028,
+            -16.64278
+          ],
+          "distance_squared_to_capital": 0.00392860480000014,
+          "report_count": 10,
+          "available_report_times": [
+            "2026-09-04T19:00:00Z",
+            "2026-09-04T18:00:00Z",
+            "2026-09-04T17:00:00Z",
+            "2026-09-04T16:00:00Z",
+            "2026-09-04T15:00:00Z",
+            "2026-09-04T14:00:00Z",
+            "2026-09-04T13:00:00Z",
+            "2026-09-04T12:00:00Z",
+            "2026-09-04T11:00:00Z",
+            "2026-09-04T10:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "characteristic_of_pressure_tendency",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "wind_direction",
+            "wind_speed",
+            "maximum_wind_gust_speed",
+            "maximum_temperature_at_height_and_over_period_specified",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "net_radiation_integrated_over_period_specified"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 31.3,
+              "units": "Celsius"
+            },
+            "wind_speed": {
+              "value": 1.8,
+              "units": "m/s"
+            },
+            "maximum_wind_gust_speed": {
+              "value": 7,
+              "units": "m/s"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-76-0-5208707000000007",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        },
+        {
+          "station": "0-20000-0-83424",
+          "latest_report_time": "2026-09-04T12:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -49.22,
+            -16.62
+          ],
+          "distance_squared_to_capital": 0.006482650000000249,
+          "report_count": 1,
+          "available_report_times": [
+            "2026-09-04T12:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "24hour_pressure_change",
+            "non_coordinate_geopotential_height",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "horizontal_visibility",
+            "cloud_cover_total",
+            "cloud_amount",
+            "cloud_type",
+            "cloud_type",
+            "cloud_type",
+            "present_weather",
+            "past_weather1",
+            "past_weather2",
+            "wind_speed",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "total_precipitation_or_total_water_equivalent"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 27.7,
+              "units": "Celsius"
+            },
+            "wind_speed": {
+              "value": 1,
+              "units": "m/s"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-20000-0-83424",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        },
+        {
+          "station": "0-20000-0-83419",
+          "latest_report_time": "2026-09-04T12:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -48.97,
+            -16.24
+          ],
+          "distance_squared_to_capital": 0.2866266500000039,
+          "report_count": 1,
+          "available_report_times": [
+            "2026-09-04T12:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "24hour_pressure_change",
+            "non_coordinate_geopotential_height",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "horizontal_visibility",
+            "cloud_cover_total",
+            "cloud_amount",
+            "height_of_base_of_cloud",
+            "cloud_type",
+            "cloud_type",
+            "cloud_type",
+            "present_weather",
+            "past_weather1",
+            "past_weather2",
+            "wind_direction",
+            "wind_speed",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "total_precipitation_or_total_water_equivalent"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 24.8,
+              "units": "Celsius"
+            },
+            "wind_speed": {
+              "value": 5.1000000000000005,
+              "units": "m/s"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-20000-0-83419",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        }
+      ],
+      "errors": [],
+      "provider_selected_station": "0-20000-0-83423",
+      "provider_selected_latest_report_time": "2026-09-04T18:00:00Z",
+      "nearest_station_candidates": [
+        {
+          "station": "0-20000-0-83423",
+          "latest_report_time": "2026-09-04T18:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -49.23333,
+            -16.65
+          ],
+          "distance_squared_to_capital": 0.002351970900000131,
+          "report_count": 2,
+          "available_report_times": [
+            "2026-09-04T18:00:00Z",
+            "2026-09-04T12:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "24hour_pressure_change",
+            "air_temperature",
+            "dewpoint_temperature",
+            "horizontal_visibility",
+            "cloud_cover_total",
+            "cloud_amount",
+            "height_of_base_of_cloud",
+            "cloud_type",
+            "cloud_type",
+            "cloud_type",
+            "present_weather",
+            "past_weather1",
+            "past_weather2",
+            "total_precipitation_or_total_water_equivalent",
+            "wind_direction",
+            "wind_speed"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 36.4,
+              "units": "Celsius"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            },
+            "wind_speed": {
+              "value": 2.1,
+              "units": "m/s"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-20000-0-83423",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        },
+        {
+          "station": "0-76-0-5208707000000007",
+          "latest_report_time": "2026-09-04T19:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -49.22028,
+            -16.64278
+          ],
+          "distance_squared_to_capital": 0.00392860480000014,
+          "report_count": 10,
+          "available_report_times": [
+            "2026-09-04T19:00:00Z",
+            "2026-09-04T18:00:00Z",
+            "2026-09-04T17:00:00Z",
+            "2026-09-04T16:00:00Z",
+            "2026-09-04T15:00:00Z",
+            "2026-09-04T14:00:00Z",
+            "2026-09-04T13:00:00Z",
+            "2026-09-04T12:00:00Z",
+            "2026-09-04T11:00:00Z",
+            "2026-09-04T10:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "characteristic_of_pressure_tendency",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "wind_direction",
+            "wind_speed",
+            "maximum_wind_gust_speed",
+            "maximum_temperature_at_height_and_over_period_specified",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "net_radiation_integrated_over_period_specified"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 31.3,
+              "units": "Celsius"
+            },
+            "wind_speed": {
+              "value": 1.8,
+              "units": "m/s"
+            },
+            "maximum_wind_gust_speed": {
+              "value": 7,
+              "units": "m/s"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-76-0-5208707000000007",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        },
+        {
+          "station": "0-20000-0-83424",
+          "latest_report_time": "2026-09-04T12:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -49.22,
+            -16.62
+          ],
+          "distance_squared_to_capital": 0.006482650000000249,
+          "report_count": 1,
+          "available_report_times": [
+            "2026-09-04T12:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "24hour_pressure_change",
+            "non_coordinate_geopotential_height",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "horizontal_visibility",
+            "cloud_cover_total",
+            "cloud_amount",
+            "cloud_type",
+            "cloud_type",
+            "cloud_type",
+            "present_weather",
+            "past_weather1",
+            "past_weather2",
+            "wind_speed",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "total_precipitation_or_total_water_equivalent"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 27.7,
+              "units": "Celsius"
+            },
+            "wind_speed": {
+              "value": 1,
+              "units": "m/s"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-20000-0-83424",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        },
+        {
+          "station": "0-20000-0-83419",
+          "latest_report_time": "2026-09-04T12:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -48.97,
+            -16.24
+          ],
+          "distance_squared_to_capital": 0.2866266500000039,
+          "report_count": 1,
+          "available_report_times": [
+            "2026-09-04T12:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "24hour_pressure_change",
+            "non_coordinate_geopotential_height",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "horizontal_visibility",
+            "cloud_cover_total",
+            "cloud_amount",
+            "height_of_base_of_cloud",
+            "cloud_type",
+            "cloud_type",
+            "cloud_type",
+            "present_weather",
+            "past_weather1",
+            "past_weather2",
+            "wind_direction",
+            "wind_speed",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "total_precipitation_or_total_water_equivalent"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 24.8,
+              "units": "Celsius"
+            },
+            "wind_speed": {
+              "value": 5.1000000000000005,
+              "units": "m/s"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-20000-0-83419",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        }
+      ]
+    },
+    {
+      "capital": "Campo Grande",
+      "uf": "MS",
+      "latitude": -20.4697,
+      "longitude": -54.6201,
+      "url": "https://wis2bra.inmet.gov.br/oapi/collections/urn:wmo:md:br-inmet:synop/items?f=json&bbox=-55.1201%2C-20.9697%2C-54.1201%2C-19.9697&limit=200&sortby=-reportTime",
+      "http_status": 200,
+      "stations": [
+        {
+          "station": "0-20000-0-83612",
+          "latest_report_time": "2026-09-04T12:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -54.67,
+            -20.47
+          ],
+          "distance_squared_to_capital": 0.0024901000000000935,
+          "report_count": 2,
+          "available_report_times": [
+            "2026-09-04T12:00:00Z",
+            "2026-09-04T06:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "relative_humidity",
+            "non_coordinate_pressure",
+            "3hour_pressure_change",
+            "characteristic_of_pressure_tendency",
+            "non_coordinate_geopotential_height",
+            "air_temperature",
+            "dewpoint_temperature",
+            "horizontal_visibility",
+            "cloud_cover_total",
+            "cloud_amount",
+            "cloud_type",
+            "cloud_type",
+            "cloud_type",
+            "wind_direction",
+            "wind_speed",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "total_precipitation_or_total_water_equivalent"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 29.9,
+              "units": "Celsius"
+            },
+            "wind_speed": {
+              "value": 3.6,
+              "units": "m/s"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-20000-0-83612",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        },
+        {
+          "station": "0-76-0-5002704000000013",
+          "latest_report_time": "2026-09-04T19:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -54.7225,
+            -20.44722
+          ],
+          "distance_squared_to_capital": 0.010991110399999058,
+          "report_count": 14,
+          "available_report_times": [
+            "2026-09-04T19:00:00Z",
+            "2026-09-04T18:00:00Z",
+            "2026-09-04T17:00:00Z",
+            "2026-09-04T16:00:00Z",
+            "2026-09-04T15:00:00Z",
+            "2026-09-04T14:00:00Z",
+            "2026-09-04T13:00:00Z",
+            "2026-09-04T12:00:00Z",
+            "2026-09-04T11:00:00Z",
+            "2026-09-04T10:00:00Z",
+            "2026-09-04T09:00:00Z",
+            "2026-09-04T08:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "characteristic_of_pressure_tendency",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "wind_direction",
+            "wind_speed",
+            "maximum_wind_gust_speed",
+            "maximum_temperature_at_height_and_over_period_specified",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "net_radiation_integrated_over_period_specified"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 34.3,
+              "units": "Celsius"
+            },
+            "wind_speed": {
+              "value": 2.6,
+              "units": "m/s"
+            },
+            "maximum_wind_gust_speed": {
+              "value": 8.200000000000001,
+              "units": "m/s"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-76-0-5002704000000013",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        }
+      ],
+      "errors": [],
+      "provider_selected_station": "0-20000-0-83612",
+      "provider_selected_latest_report_time": "2026-09-04T12:00:00Z",
+      "nearest_station_candidates": [
+        {
+          "station": "0-20000-0-83612",
+          "latest_report_time": "2026-09-04T12:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -54.67,
+            -20.47
+          ],
+          "distance_squared_to_capital": 0.0024901000000000935,
+          "report_count": 2,
+          "available_report_times": [
+            "2026-09-04T12:00:00Z",
+            "2026-09-04T06:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "relative_humidity",
+            "non_coordinate_pressure",
+            "3hour_pressure_change",
+            "characteristic_of_pressure_tendency",
+            "non_coordinate_geopotential_height",
+            "air_temperature",
+            "dewpoint_temperature",
+            "horizontal_visibility",
+            "cloud_cover_total",
+            "cloud_amount",
+            "cloud_type",
+            "cloud_type",
+            "cloud_type",
+            "wind_direction",
+            "wind_speed",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "total_precipitation_or_total_water_equivalent"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 29.9,
+              "units": "Celsius"
+            },
+            "wind_speed": {
+              "value": 3.6,
+              "units": "m/s"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-20000-0-83612",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        },
+        {
+          "station": "0-76-0-5002704000000013",
+          "latest_report_time": "2026-09-04T19:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -54.7225,
+            -20.44722
+          ],
+          "distance_squared_to_capital": 0.010991110399999058,
+          "report_count": 14,
+          "available_report_times": [
+            "2026-09-04T19:00:00Z",
+            "2026-09-04T18:00:00Z",
+            "2026-09-04T17:00:00Z",
+            "2026-09-04T16:00:00Z",
+            "2026-09-04T15:00:00Z",
+            "2026-09-04T14:00:00Z",
+            "2026-09-04T13:00:00Z",
+            "2026-09-04T12:00:00Z",
+            "2026-09-04T11:00:00Z",
+            "2026-09-04T10:00:00Z",
+            "2026-09-04T09:00:00Z",
+            "2026-09-04T08:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "characteristic_of_pressure_tendency",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "wind_direction",
+            "wind_speed",
+            "maximum_wind_gust_speed",
+            "maximum_temperature_at_height_and_over_period_specified",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "net_radiation_integrated_over_period_specified"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 34.3,
+              "units": "Celsius"
+            },
+            "wind_speed": {
+              "value": 2.6,
+              "units": "m/s"
+            },
+            "maximum_wind_gust_speed": {
+              "value": 8.200000000000001,
+              "units": "m/s"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-76-0-5002704000000013",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        }
+      ]
+    },
+    {
+      "capital": "Recife",
+      "uf": "PE",
+      "latitude": -8.0476,
+      "longitude": -34.877,
+      "url": "https://wis2bra.inmet.gov.br/oapi/collections/urn:wmo:md:br-inmet:synop/items?f=json&bbox=-35.377%2C-8.5476%2C-34.377%2C-7.547599999999999&limit=200&sortby=-reportTime",
+      "http_status": 200,
+      "stations": [
+        {
+          "station": "0-20000-0-82899",
+          "latest_report_time": "2026-09-04T18:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -34.83333,
+            -8.05
+          ],
+          "distance_squared_to_capital": 0.00191282890000052,
+          "report_count": 2,
+          "available_report_times": [
+            "2026-09-04T18:00:00Z",
+            "2026-09-04T12:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "24hour_pressure_change",
+            "air_temperature",
+            "dewpoint_temperature",
+            "horizontal_visibility",
+            "cloud_cover_total",
+            "cloud_amount",
+            "height_of_base_of_cloud",
+            "cloud_type",
+            "cloud_type",
+            "cloud_type",
+            "present_weather",
+            "past_weather1",
+            "past_weather2",
+            "total_precipitation_or_total_water_equivalent",
+            "total_precipitation_or_total_water_equivalent",
+            "wind_direction",
+            "wind_speed"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 28.2,
+              "units": "Celsius"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            },
+            "wind_speed": {
+              "value": 5.7,
+              "units": "m/s"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-20000-0-82899",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        },
+        {
+          "station": "0-76-0-2611606000000072",
+          "latest_report_time": "2026-09-04T19:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -34.94417,
+            -8.01889
+          ],
+          "distance_squared_to_capital": 0.0053360729999995474,
+          "report_count": 13,
+          "available_report_times": [
+            "2026-09-04T19:00:00Z",
+            "2026-09-04T18:00:00Z",
+            "2026-09-04T17:00:00Z",
+            "2026-09-04T16:00:00Z",
+            "2026-09-04T15:00:00Z",
+            "2026-09-04T14:00:00Z",
+            "2026-09-04T13:00:00Z",
+            "2026-09-04T12:00:00Z",
+            "2026-09-04T11:00:00Z",
+            "2026-09-04T10:00:00Z",
+            "2026-09-04T09:00:00Z",
+            "2026-09-04T08:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "characteristic_of_pressure_tendency",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "wind_direction",
+            "wind_speed",
+            "maximum_wind_gust_speed",
+            "maximum_temperature_at_height_and_over_period_specified",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "net_radiation_integrated_over_period_specified"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 27.5,
+              "units": "Celsius"
+            },
+            "wind_speed": {
+              "value": 2.8000000000000003,
+              "units": "m/s"
+            },
+            "maximum_wind_gust_speed": {
+              "value": 5.800000000000001,
+              "units": "m/s"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-76-0-2611606000000072",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        }
+      ],
+      "errors": [],
+      "provider_selected_station": "0-20000-0-82899",
+      "provider_selected_latest_report_time": "2026-09-04T18:00:00Z",
+      "nearest_station_candidates": [
+        {
+          "station": "0-20000-0-82899",
+          "latest_report_time": "2026-09-04T18:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -34.83333,
+            -8.05
+          ],
+          "distance_squared_to_capital": 0.00191282890000052,
+          "report_count": 2,
+          "available_report_times": [
+            "2026-09-04T18:00:00Z",
+            "2026-09-04T12:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "24hour_pressure_change",
+            "air_temperature",
+            "dewpoint_temperature",
+            "horizontal_visibility",
+            "cloud_cover_total",
+            "cloud_amount",
+            "height_of_base_of_cloud",
+            "cloud_type",
+            "cloud_type",
+            "cloud_type",
+            "present_weather",
+            "past_weather1",
+            "past_weather2",
+            "total_precipitation_or_total_water_equivalent",
+            "total_precipitation_or_total_water_equivalent",
+            "wind_direction",
+            "wind_speed"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 28.2,
+              "units": "Celsius"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            },
+            "wind_speed": {
+              "value": 5.7,
+              "units": "m/s"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-20000-0-82899",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        },
+        {
+          "station": "0-76-0-2611606000000072",
+          "latest_report_time": "2026-09-04T19:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -34.94417,
+            -8.01889
+          ],
+          "distance_squared_to_capital": 0.0053360729999995474,
+          "report_count": 13,
+          "available_report_times": [
+            "2026-09-04T19:00:00Z",
+            "2026-09-04T18:00:00Z",
+            "2026-09-04T17:00:00Z",
+            "2026-09-04T16:00:00Z",
+            "2026-09-04T15:00:00Z",
+            "2026-09-04T14:00:00Z",
+            "2026-09-04T13:00:00Z",
+            "2026-09-04T12:00:00Z",
+            "2026-09-04T11:00:00Z",
+            "2026-09-04T10:00:00Z",
+            "2026-09-04T09:00:00Z",
+            "2026-09-04T08:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "characteristic_of_pressure_tendency",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "wind_direction",
+            "wind_speed",
+            "maximum_wind_gust_speed",
+            "maximum_temperature_at_height_and_over_period_specified",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "net_radiation_integrated_over_period_specified"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 27.5,
+              "units": "Celsius"
+            },
+            "wind_speed": {
+              "value": 2.8000000000000003,
+              "units": "m/s"
+            },
+            "maximum_wind_gust_speed": {
+              "value": 5.800000000000001,
+              "units": "m/s"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-76-0-2611606000000072",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        }
+      ]
+    },
+    {
+      "capital": "Teresina",
+      "uf": "PI",
+      "latitude": -5.0892,
+      "longitude": -42.8016,
+      "url": "https://wis2bra.inmet.gov.br/oapi/collections/urn:wmo:md:br-inmet:synop/items?f=json&bbox=-43.3016%2C-5.5892%2C-42.3016%2C-4.5892&limit=200&sortby=-reportTime",
+      "http_status": 200,
+      "stations": [
+        {
+          "station": "0-20000-0-82579",
+          "latest_report_time": "2026-09-04T12:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -42.82,
+            -5.05
+          ],
+          "distance_squared_to_capital": 0.0018752000000000005,
+          "report_count": 2,
+          "available_report_times": [
+            "2026-09-04T12:00:00Z",
+            "2026-09-04T06:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "24hour_pressure_change",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "horizontal_visibility",
+            "cloud_cover_total",
+            "cloud_amount",
+            "cloud_type",
+            "cloud_type",
+            "cloud_type",
+            "wind_direction",
+            "wind_speed",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "total_precipitation_or_total_water_equivalent"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 29,
+              "units": "Celsius"
+            },
+            "wind_speed": {
+              "value": 2.1,
+              "units": "m/s"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-20000-0-82579",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        },
+        {
+          "station": "0-76-0-2211001000000069",
+          "latest_report_time": "2026-09-04T19:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -42.80139,
+            -5.03472
+          ],
+          "distance_squared_to_capital": 0.0029681144999999863,
+          "report_count": 14,
+          "available_report_times": [
+            "2026-09-04T19:00:00Z",
+            "2026-09-04T18:00:00Z",
+            "2026-09-04T17:00:00Z",
+            "2026-09-04T16:00:00Z",
+            "2026-09-04T15:00:00Z",
+            "2026-09-04T14:00:00Z",
+            "2026-09-04T13:00:00Z",
+            "2026-09-04T12:00:00Z",
+            "2026-09-04T11:00:00Z",
+            "2026-09-04T10:00:00Z",
+            "2026-09-04T09:00:00Z",
+            "2026-09-04T08:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "characteristic_of_pressure_tendency",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "wind_direction",
+            "wind_speed",
+            "maximum_wind_gust_speed",
+            "maximum_temperature_at_height_and_over_period_specified",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "net_radiation_integrated_over_period_specified"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 37,
+              "units": "Celsius"
+            },
+            "wind_speed": {
+              "value": 1.7000000000000002,
+              "units": "m/s"
+            },
+            "maximum_wind_gust_speed": {
+              "value": 6.1000000000000005,
+              "units": "m/s"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-76-0-2211001000000069",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        }
+      ],
+      "errors": [],
+      "provider_selected_station": "0-20000-0-82579",
+      "provider_selected_latest_report_time": "2026-09-04T12:00:00Z",
+      "nearest_station_candidates": [
+        {
+          "station": "0-20000-0-82579",
+          "latest_report_time": "2026-09-04T12:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -42.82,
+            -5.05
+          ],
+          "distance_squared_to_capital": 0.0018752000000000005,
+          "report_count": 2,
+          "available_report_times": [
+            "2026-09-04T12:00:00Z",
+            "2026-09-04T06:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "24hour_pressure_change",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "horizontal_visibility",
+            "cloud_cover_total",
+            "cloud_amount",
+            "cloud_type",
+            "cloud_type",
+            "cloud_type",
+            "wind_direction",
+            "wind_speed",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "total_precipitation_or_total_water_equivalent"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 29,
+              "units": "Celsius"
+            },
+            "wind_speed": {
+              "value": 2.1,
+              "units": "m/s"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-20000-0-82579",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        },
+        {
+          "station": "0-76-0-2211001000000069",
+          "latest_report_time": "2026-09-04T19:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -42.80139,
+            -5.03472
+          ],
+          "distance_squared_to_capital": 0.0029681144999999863,
+          "report_count": 14,
+          "available_report_times": [
+            "2026-09-04T19:00:00Z",
+            "2026-09-04T18:00:00Z",
+            "2026-09-04T17:00:00Z",
+            "2026-09-04T16:00:00Z",
+            "2026-09-04T15:00:00Z",
+            "2026-09-04T14:00:00Z",
+            "2026-09-04T13:00:00Z",
+            "2026-09-04T12:00:00Z",
+            "2026-09-04T11:00:00Z",
+            "2026-09-04T10:00:00Z",
+            "2026-09-04T09:00:00Z",
+            "2026-09-04T08:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "characteristic_of_pressure_tendency",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "wind_direction",
+            "wind_speed",
+            "maximum_wind_gust_speed",
+            "maximum_temperature_at_height_and_over_period_specified",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "net_radiation_integrated_over_period_specified"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 37,
+              "units": "Celsius"
+            },
+            "wind_speed": {
+              "value": 1.7000000000000002,
+              "units": "m/s"
+            },
+            "maximum_wind_gust_speed": {
+              "value": 6.1000000000000005,
+              "units": "m/s"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-76-0-2211001000000069",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        }
+      ]
+    },
+    {
+      "capital": "Porto Velho",
+      "uf": "RO",
+      "latitude": -8.7612,
+      "longitude": -63.9004,
+      "url": "https://wis2bra.inmet.gov.br/oapi/collections/urn:wmo:md:br-inmet:synop/items?f=json&bbox=-64.40039999999999%2C-9.2612%2C-63.4004%2C-8.2612&limit=200&sortby=-reportTime",
+      "http_status": 200,
+      "stations": [
+        {
+          "station": "0-20000-0-82824",
+          "latest_report_time": "2026-09-04T18:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -63.9,
+            -8.75
+          ],
+          "distance_squared_to_capital": 0.00012560000000001143,
+          "report_count": 3,
+          "available_report_times": [
+            "2026-09-04T18:00:00Z",
+            "2026-09-04T12:00:00Z",
+            "2026-09-04T06:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "24hour_pressure_change",
+            "air_temperature",
+            "dewpoint_temperature",
+            "horizontal_visibility",
+            "cloud_cover_total",
+            "cloud_amount",
+            "height_of_base_of_cloud",
+            "cloud_type",
+            "cloud_type",
+            "cloud_type",
+            "present_weather",
+            "past_weather1",
+            "past_weather2",
+            "total_precipitation_or_total_water_equivalent",
+            "total_precipitation_or_total_water_equivalent",
+            "wind_direction",
+            "wind_speed"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 36.2,
+              "units": "Celsius"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            },
+            "wind_speed": {
+              "value": 1.5,
+              "units": "m/s"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-20000-0-82824",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        },
+        {
+          "station": "0-76-0-1100205000000227",
+          "latest_report_time": "2026-09-04T19:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -63.84583,
+            -8.79361
+          ],
+          "distance_squared_to_capital": 0.004028292999999724,
+          "report_count": 15,
+          "available_report_times": [
+            "2026-09-04T19:00:00Z",
+            "2026-09-04T18:00:00Z",
+            "2026-09-04T17:00:00Z",
+            "2026-09-04T16:00:00Z",
+            "2026-09-04T15:00:00Z",
+            "2026-09-04T14:00:00Z",
+            "2026-09-04T13:00:00Z",
+            "2026-09-04T12:00:00Z",
+            "2026-09-04T11:00:00Z",
+            "2026-09-04T10:00:00Z",
+            "2026-09-04T09:00:00Z",
+            "2026-09-04T08:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "characteristic_of_pressure_tendency",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "maximum_temperature_at_height_and_over_period_specified",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "net_radiation_integrated_over_period_specified"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 34.6,
+              "units": "Celsius"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-76-0-1100205000000227",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        }
+      ],
+      "errors": [],
+      "provider_selected_station": "0-20000-0-82824",
+      "provider_selected_latest_report_time": "2026-09-04T18:00:00Z",
+      "nearest_station_candidates": [
+        {
+          "station": "0-20000-0-82824",
+          "latest_report_time": "2026-09-04T18:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -63.9,
+            -8.75
+          ],
+          "distance_squared_to_capital": 0.00012560000000001143,
+          "report_count": 3,
+          "available_report_times": [
+            "2026-09-04T18:00:00Z",
+            "2026-09-04T12:00:00Z",
+            "2026-09-04T06:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "24hour_pressure_change",
+            "air_temperature",
+            "dewpoint_temperature",
+            "horizontal_visibility",
+            "cloud_cover_total",
+            "cloud_amount",
+            "height_of_base_of_cloud",
+            "cloud_type",
+            "cloud_type",
+            "cloud_type",
+            "present_weather",
+            "past_weather1",
+            "past_weather2",
+            "total_precipitation_or_total_water_equivalent",
+            "total_precipitation_or_total_water_equivalent",
+            "wind_direction",
+            "wind_speed"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 36.2,
+              "units": "Celsius"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            },
+            "wind_speed": {
+              "value": 1.5,
+              "units": "m/s"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-20000-0-82824",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        },
+        {
+          "station": "0-76-0-1100205000000227",
+          "latest_report_time": "2026-09-04T19:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -63.84583,
+            -8.79361
+          ],
+          "distance_squared_to_capital": 0.004028292999999724,
+          "report_count": 15,
+          "available_report_times": [
+            "2026-09-04T19:00:00Z",
+            "2026-09-04T18:00:00Z",
+            "2026-09-04T17:00:00Z",
+            "2026-09-04T16:00:00Z",
+            "2026-09-04T15:00:00Z",
+            "2026-09-04T14:00:00Z",
+            "2026-09-04T13:00:00Z",
+            "2026-09-04T12:00:00Z",
+            "2026-09-04T11:00:00Z",
+            "2026-09-04T10:00:00Z",
+            "2026-09-04T09:00:00Z",
+            "2026-09-04T08:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "characteristic_of_pressure_tendency",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "maximum_temperature_at_height_and_over_period_specified",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "net_radiation_integrated_over_period_specified"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 34.6,
+              "units": "Celsius"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-76-0-1100205000000227",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        }
+      ]
+    },
+    {
+      "capital": "Boa Vista",
+      "uf": "RR",
+      "latitude": 2.8235,
+      "longitude": -60.6758,
+      "url": "https://wis2bra.inmet.gov.br/oapi/collections/urn:wmo:md:br-inmet:synop/items?f=json&bbox=-61.1758%2C2.3235%2C-60.1758%2C3.3235&limit=200&sortby=-reportTime",
+      "http_status": 200,
+      "stations": [
+        {
+          "station": "0-20000-0-82022",
+          "latest_report_time": "2026-09-04T12:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -60.68,
+            2.84
+          ],
+          "distance_squared_to_capital": 0.0002898899999999688,
+          "report_count": 13,
+          "available_report_times": [
+            "2026-09-04T12:00:00Z",
+            "2026-09-04T06:00:00Z",
+            "2026-09-04T00:00:00Z",
+            "2026-09-03T18:00:00Z",
+            "2026-09-03T15:00:00Z",
+            "2026-09-03T12:00:00Z",
+            "2026-09-03T09:00:00Z",
+            "2026-09-03T03:00:00Z",
+            "2026-09-03T00:00:00Z",
+            "2026-09-02T21:00:00Z",
+            "2026-09-02T18:00:00Z",
+            "2026-09-02T15:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "24hour_pressure_change",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "horizontal_visibility",
+            "cloud_cover_total",
+            "cloud_amount",
+            "cloud_type",
+            "cloud_type",
+            "cloud_type",
+            "wind_direction",
+            "wind_speed",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "total_precipitation_or_total_water_equivalent"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 28.7,
+              "units": "Celsius"
+            },
+            "wind_speed": {
+              "value": 3.1,
+              "units": "m/s"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-20000-0-82022",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        }
+      ],
+      "errors": [],
+      "provider_selected_station": "0-20000-0-82022",
+      "provider_selected_latest_report_time": "2026-09-04T12:00:00Z",
+      "nearest_station_candidates": [
+        {
+          "station": "0-20000-0-82022",
+          "latest_report_time": "2026-09-04T12:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -60.68,
+            2.84
+          ],
+          "distance_squared_to_capital": 0.0002898899999999688,
+          "report_count": 13,
+          "available_report_times": [
+            "2026-09-04T12:00:00Z",
+            "2026-09-04T06:00:00Z",
+            "2026-09-04T00:00:00Z",
+            "2026-09-03T18:00:00Z",
+            "2026-09-03T15:00:00Z",
+            "2026-09-03T12:00:00Z",
+            "2026-09-03T09:00:00Z",
+            "2026-09-03T03:00:00Z",
+            "2026-09-03T00:00:00Z",
+            "2026-09-02T21:00:00Z",
+            "2026-09-02T18:00:00Z",
+            "2026-09-02T15:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "24hour_pressure_change",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "horizontal_visibility",
+            "cloud_cover_total",
+            "cloud_amount",
+            "cloud_type",
+            "cloud_type",
+            "cloud_type",
+            "wind_direction",
+            "wind_speed",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "total_precipitation_or_total_water_equivalent"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 28.7,
+              "units": "Celsius"
+            },
+            "wind_speed": {
+              "value": 3.1,
+              "units": "m/s"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-20000-0-82022",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        }
+      ]
+    },
+    {
+      "capital": "Florianópolis",
+      "uf": "SC",
+      "latitude": -27.5954,
+      "longitude": -48.548,
+      "url": "https://wis2bra.inmet.gov.br/oapi/collections/urn:wmo:md:br-inmet:synop/items?f=json&bbox=-49.048%2C-28.0954%2C-48.048%2C-27.0954&limit=200&sortby=-reportTime",
+      "http_status": 200,
+      "stations": [
+        {
+          "station": "0-20000-0-83899",
+          "latest_report_time": "2026-09-04T12:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -48.55,
+            -27.67
+          ],
+          "distance_squared_to_capital": 0.005569160000000015,
+          "report_count": 2,
+          "available_report_times": [
+            "2026-09-04T12:00:00Z",
+            "2026-09-04T06:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "3hour_pressure_change",
+            "characteristic_of_pressure_tendency",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "horizontal_visibility",
+            "cloud_cover_total",
+            "cloud_amount",
+            "height_of_base_of_cloud",
+            "cloud_type",
+            "cloud_type",
+            "cloud_type",
+            "wind_direction",
+            "wind_speed",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "total_precipitation_or_total_water_equivalent"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 19.3,
+              "units": "Celsius"
+            },
+            "wind_speed": {
+              "value": 4.1000000000000005,
+              "units": "m/s"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-20000-0-83899",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        },
+        {
+          "station": "0-76-0-4214300000000515",
+          "latest_report_time": "2026-09-04T19:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -49.04194,
+            -27.67861
+          ],
+          "distance_squared_to_capital": 0.2509006276999946,
+          "report_count": 17,
+          "available_report_times": [
+            "2026-09-04T19:00:00Z",
+            "2026-09-04T18:00:00Z",
+            "2026-09-04T17:00:00Z",
+            "2026-09-04T16:00:00Z",
+            "2026-09-04T15:00:00Z",
+            "2026-09-04T14:00:00Z",
+            "2026-09-04T13:00:00Z",
+            "2026-09-04T12:00:00Z",
+            "2026-09-04T11:00:00Z",
+            "2026-09-04T10:00:00Z",
+            "2026-09-04T09:00:00Z",
+            "2026-09-04T08:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "characteristic_of_pressure_tendency",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "maximum_temperature_at_height_and_over_period_specified",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "net_radiation_integrated_over_period_specified"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 13.5,
+              "units": "Celsius"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-76-0-4214300000000515",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        }
+      ],
+      "errors": [],
+      "provider_selected_station": "0-20000-0-83899",
+      "provider_selected_latest_report_time": "2026-09-04T12:00:00Z",
+      "nearest_station_candidates": [
+        {
+          "station": "0-20000-0-83899",
+          "latest_report_time": "2026-09-04T12:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -48.55,
+            -27.67
+          ],
+          "distance_squared_to_capital": 0.005569160000000015,
+          "report_count": 2,
+          "available_report_times": [
+            "2026-09-04T12:00:00Z",
+            "2026-09-04T06:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "3hour_pressure_change",
+            "characteristic_of_pressure_tendency",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "horizontal_visibility",
+            "cloud_cover_total",
+            "cloud_amount",
+            "height_of_base_of_cloud",
+            "cloud_type",
+            "cloud_type",
+            "cloud_type",
+            "wind_direction",
+            "wind_speed",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "total_precipitation_or_total_water_equivalent"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 19.3,
+              "units": "Celsius"
+            },
+            "wind_speed": {
+              "value": 4.1000000000000005,
+              "units": "m/s"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-20000-0-83899",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        },
+        {
+          "station": "0-76-0-4214300000000515",
+          "latest_report_time": "2026-09-04T19:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -49.04194,
+            -27.67861
+          ],
+          "distance_squared_to_capital": 0.2509006276999946,
+          "report_count": 17,
+          "available_report_times": [
+            "2026-09-04T19:00:00Z",
+            "2026-09-04T18:00:00Z",
+            "2026-09-04T17:00:00Z",
+            "2026-09-04T16:00:00Z",
+            "2026-09-04T15:00:00Z",
+            "2026-09-04T14:00:00Z",
+            "2026-09-04T13:00:00Z",
+            "2026-09-04T12:00:00Z",
+            "2026-09-04T11:00:00Z",
+            "2026-09-04T10:00:00Z",
+            "2026-09-04T09:00:00Z",
+            "2026-09-04T08:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "characteristic_of_pressure_tendency",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "maximum_temperature_at_height_and_over_period_specified",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "net_radiation_integrated_over_period_specified"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 13.5,
+              "units": "Celsius"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-76-0-4214300000000515",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        }
+      ]
+    },
+    {
+      "capital": "Palmas",
+      "uf": "TO",
+      "latitude": -10.184,
+      "longitude": -48.3336,
+      "url": "https://wis2bra.inmet.gov.br/oapi/collections/urn:wmo:md:br-inmet:synop/items?f=json&bbox=-48.8336%2C-10.684%2C-47.8336%2C-9.684&limit=200&sortby=-reportTime",
+      "http_status": 200,
+      "stations": [
+        {
+          "station": "0-20000-0-83033",
+          "latest_report_time": "2026-09-04T18:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -48.3,
+            -10.18333
+          ],
+          "distance_squared_to_capital": 0.0011294088999999894,
+          "report_count": 2,
+          "available_report_times": [
+            "2026-09-04T18:00:00Z",
+            "2026-09-04T12:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "cloud_type",
+            "cloud_type",
+            "cloud_type",
+            "present_weather",
+            "past_weather1",
+            "past_weather2",
+            "total_precipitation_or_total_water_equivalent",
+            "wind_direction",
+            "wind_speed",
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "24hour_pressure_change",
+            "air_temperature",
+            "dewpoint_temperature",
+            "horizontal_visibility",
+            "cloud_cover_total",
+            "cloud_amount",
+            "height_of_base_of_cloud"
+          ],
+          "latest_report_measurements": {
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            },
+            "wind_speed": {
+              "value": 3.1,
+              "units": "m/s"
+            },
+            "air_temperature": {
+              "value": 32.2,
+              "units": "Celsius"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-20000-0-83033",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        },
+        {
+          "station": "0-76-0-1721000000000070",
+          "latest_report_time": "2026-09-04T19:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -48.31444,
+            -10.14778
+          ],
+          "distance_squared_to_capital": 0.0016789939999999873,
+          "report_count": 10,
+          "available_report_times": [
+            "2026-09-04T19:00:00Z",
+            "2026-09-04T18:00:00Z",
+            "2026-09-04T17:00:00Z",
+            "2026-09-04T16:00:00Z",
+            "2026-09-04T15:00:00Z",
+            "2026-09-04T14:00:00Z",
+            "2026-09-04T13:00:00Z",
+            "2026-09-04T12:00:00Z",
+            "2026-09-04T11:00:00Z",
+            "2026-09-04T10:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "characteristic_of_pressure_tendency",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "wind_direction",
+            "wind_speed",
+            "maximum_wind_gust_speed",
+            "maximum_temperature_at_height_and_over_period_specified",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "net_radiation_integrated_over_period_specified"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 31.4,
+              "units": "Celsius"
+            },
+            "wind_speed": {
+              "value": 3.5,
+              "units": "m/s"
+            },
+            "maximum_wind_gust_speed": {
+              "value": 10.700000000000001,
+              "units": "m/s"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-76-0-1721000000000070",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        },
+        {
+          "station": "0-20000-0-83065",
+          "latest_report_time": "2026-09-04T12:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -48.35,
+            -10.28
+          ],
+          "distance_squared_to_capital": 0.00948496000000016,
+          "report_count": 1,
+          "available_report_times": [
+            "2026-09-04T12:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "24hour_pressure_change",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "horizontal_visibility",
+            "cloud_cover_total",
+            "cloud_amount",
+            "height_of_base_of_cloud",
+            "cloud_type",
+            "cloud_type",
+            "cloud_type",
+            "present_weather",
+            "past_weather1",
+            "past_weather2",
+            "wind_direction",
+            "wind_speed",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "total_precipitation_or_total_water_equivalent"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 29.3,
+              "units": "Celsius"
+            },
+            "wind_speed": {
+              "value": 1,
+              "units": "m/s"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-20000-0-83065",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        },
+        {
+          "station": "0-20000-0-83064",
+          "latest_report_time": "2026-09-04T18:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -48.56667,
+            -10.05
+          ],
+          "distance_squared_to_capital": 0.07227762490000195,
+          "report_count": 1,
+          "available_report_times": [
+            "2026-09-04T18:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "24hour_pressure_change",
+            "air_temperature",
+            "dewpoint_temperature",
+            "horizontal_visibility",
+            "cloud_cover_total",
+            "cloud_amount",
+            "height_of_base_of_cloud",
+            "cloud_type",
+            "cloud_type",
+            "cloud_type",
+            "present_weather",
+            "past_weather1",
+            "past_weather2",
+            "total_precipitation_or_total_water_equivalent",
+            "wind_direction",
+            "wind_speed"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 31.5,
+              "units": "Celsius"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 2,
+              "units": "kg m-2"
+            },
+            "wind_speed": {
+              "value": 2.1,
+              "units": "m/s"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-20000-0-83064",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        }
+      ],
+      "errors": [],
+      "provider_selected_station": "0-20000-0-83033",
+      "provider_selected_latest_report_time": "2026-09-04T18:00:00Z",
+      "nearest_station_candidates": [
+        {
+          "station": "0-20000-0-83033",
+          "latest_report_time": "2026-09-04T18:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -48.3,
+            -10.18333
+          ],
+          "distance_squared_to_capital": 0.0011294088999999894,
+          "report_count": 2,
+          "available_report_times": [
+            "2026-09-04T18:00:00Z",
+            "2026-09-04T12:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "cloud_type",
+            "cloud_type",
+            "cloud_type",
+            "present_weather",
+            "past_weather1",
+            "past_weather2",
+            "total_precipitation_or_total_water_equivalent",
+            "wind_direction",
+            "wind_speed",
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "24hour_pressure_change",
+            "air_temperature",
+            "dewpoint_temperature",
+            "horizontal_visibility",
+            "cloud_cover_total",
+            "cloud_amount",
+            "height_of_base_of_cloud"
+          ],
+          "latest_report_measurements": {
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            },
+            "wind_speed": {
+              "value": 3.1,
+              "units": "m/s"
+            },
+            "air_temperature": {
+              "value": 32.2,
+              "units": "Celsius"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-20000-0-83033",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        },
+        {
+          "station": "0-76-0-1721000000000070",
+          "latest_report_time": "2026-09-04T19:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -48.31444,
+            -10.14778
+          ],
+          "distance_squared_to_capital": 0.0016789939999999873,
+          "report_count": 10,
+          "available_report_times": [
+            "2026-09-04T19:00:00Z",
+            "2026-09-04T18:00:00Z",
+            "2026-09-04T17:00:00Z",
+            "2026-09-04T16:00:00Z",
+            "2026-09-04T15:00:00Z",
+            "2026-09-04T14:00:00Z",
+            "2026-09-04T13:00:00Z",
+            "2026-09-04T12:00:00Z",
+            "2026-09-04T11:00:00Z",
+            "2026-09-04T10:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "characteristic_of_pressure_tendency",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "wind_direction",
+            "wind_speed",
+            "maximum_wind_gust_speed",
+            "maximum_temperature_at_height_and_over_period_specified",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "net_radiation_integrated_over_period_specified"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 31.4,
+              "units": "Celsius"
+            },
+            "wind_speed": {
+              "value": 3.5,
+              "units": "m/s"
+            },
+            "maximum_wind_gust_speed": {
+              "value": 10.700000000000001,
+              "units": "m/s"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-76-0-1721000000000070",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        },
+        {
+          "station": "0-20000-0-83065",
+          "latest_report_time": "2026-09-04T12:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -48.35,
+            -10.28
+          ],
+          "distance_squared_to_capital": 0.00948496000000016,
+          "report_count": 1,
+          "available_report_times": [
+            "2026-09-04T12:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "24hour_pressure_change",
+            "air_temperature",
+            "dewpoint_temperature",
+            "relative_humidity",
+            "horizontal_visibility",
+            "cloud_cover_total",
+            "cloud_amount",
+            "height_of_base_of_cloud",
+            "cloud_type",
+            "cloud_type",
+            "cloud_type",
+            "present_weather",
+            "past_weather1",
+            "past_weather2",
+            "wind_direction",
+            "wind_speed",
+            "minimum_temperature_at_height_and_over_period_specified",
+            "total_precipitation_or_total_water_equivalent",
+            "total_precipitation_or_total_water_equivalent"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 29.3,
+              "units": "Celsius"
+            },
+            "wind_speed": {
+              "value": 1,
+              "units": "m/s"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 0,
+              "units": "kg m-2"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-20000-0-83065",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        },
+        {
+          "station": "0-20000-0-83064",
+          "latest_report_time": "2026-09-04T18:00:00Z",
+          "latest_report_id": null,
+          "latest_report_coordinates": [
+            -48.56667,
+            -10.05
+          ],
+          "distance_squared_to_capital": 0.07227762490000195,
+          "report_count": 1,
+          "available_report_times": [
+            "2026-09-04T18:00:00Z"
+          ],
+          "latest_report_measurement_names": [
+            "non_coordinate_pressure",
+            "pressure_reduced_to_mean_sea_level",
+            "24hour_pressure_change",
+            "air_temperature",
+            "dewpoint_temperature",
+            "horizontal_visibility",
+            "cloud_cover_total",
+            "cloud_amount",
+            "height_of_base_of_cloud",
+            "cloud_type",
+            "cloud_type",
+            "cloud_type",
+            "present_weather",
+            "past_weather1",
+            "past_weather2",
+            "total_precipitation_or_total_water_equivalent",
+            "wind_direction",
+            "wind_speed"
+          ],
+          "latest_report_measurements": {
+            "air_temperature": {
+              "value": 31.5,
+              "units": "Celsius"
+            },
+            "total_precipitation_or_total_water_equivalent": {
+              "value": 2,
+              "units": "kg m-2"
+            },
+            "wind_speed": {
+              "value": 2.1,
+              "units": "m/s"
+            }
+          },
+          "source_station_fields": {
+            "wigos_station_identifier": "0-20000-0-83064",
+            "station_id": null,
+            "station": null,
+            "wigos_id": null
+          }
+        }
+      ]
+    }
+  ]
+}

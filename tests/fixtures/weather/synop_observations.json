@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-47.92583, -15.78944, 1162.5]},
+      "properties": {
+        "name": "air_temperature",
+        "value": 21.4,
+        "units": "Celsius",
+        "reportTime": "2026-09-02T13:00:00Z",
+        "reportId": "station-202609021300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-47.92583, -15.78944, 1162.5]},
+      "properties": {
+        "name": "total_precipitation_or_total_water_equivalent",
+        "value": 12.5,
+        "units": "kg m-2",
+        "reportTime": "2026-09-02T13:00:00Z",
+        "reportId": "station-202609021300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-47.92583, -15.78944, 1162.5]},
+      "properties": {
+        "name": "wind_speed",
+        "value": 20,
+        "units": "m/s",
+        "reportTime": "2026-09-02T13:00:00Z",
+        "reportId": "station-202609021300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-47.92583, -15.78944, 1162.5]},
+      "properties": {
+        "name": "maximum_wind_gust_speed",
+        "value": 25,
+        "units": "m/s",
+        "reportTime": "2026-09-02T13:00:00Z",
+        "reportId": "station-202609021300"
+      }
+    }
+  ]
+}

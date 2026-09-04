@@ -1,0 +1,17 @@
+{
+  "hoje": [
+    {
+      "id": 1001,
+      "codigo": "urn:inmet:1001",
+      "descricao": "Chuvas Intensas",
+      "severidade": "Perigo Potencial",
+      "inicio": "2026-09-02 09:00",
+      "fim": "2026-09-03 23:59",
+      "poligono": "{\"type\":\"Polygon\",\"coordinates\":[[[-48.2,-16.1],[-47.7,-16.1],[-47.7,-15.5],[-48.2,-15.5],[-48.2,-16.1]]]} ",
+      "riscos": [
+        "Chuva entre 20 e 30 mm/h ou até 50 mm/dia."
+      ]
+    }
+  ],
+  "futuro": []
+}

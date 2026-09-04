@@ -1,0 +1,17 @@
+{
+  "hoje": [
+    {
+      "id": 1004,
+      "codigo": "urn:inmet:1004",
+      "descricao": "Baixa Umidade",
+      "severidade": "Perigo Potencial",
+      "inicio": "2026-09-02 09:00",
+      "fim": "2026-09-02 22:00",
+      "poligono": "{\"type\":\"Polygon\",\"coordinates\":[[[-48.2,-16.1],[-47.7,-16.1],[-47.7,-15.5],[-48.2,-15.5],[-48.2,-16.1]]]} ",
+      "riscos": [
+        "Umidade relativa do ar variando entre 30% e 20%."
+      ]
+    }
+  ],
+  "futuro": []
+}

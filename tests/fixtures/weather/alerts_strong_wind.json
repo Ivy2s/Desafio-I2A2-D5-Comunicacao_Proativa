@@ -1,0 +1,17 @@
+{
+  "hoje": [
+    {
+      "id": 1003,
+      "codigo": "urn:inmet:1003",
+      "descricao": "Vendaval",
+      "severidade": "Perigo Potencial",
+      "inicio": "2026-09-02 11:00",
+      "fim": "2026-09-02 23:00",
+      "poligono": "{\"type\":\"Polygon\",\"coordinates\":[[[-48.2,-16.1],[-47.7,-16.1],[-47.7,-15.5],[-48.2,-15.5],[-48.2,-16.1]]]} ",
+      "riscos": [
+        "Rajadas de vento entre 60 e 100 km/h."
+      ]
+    }
+  ],
+  "futuro": []
+}

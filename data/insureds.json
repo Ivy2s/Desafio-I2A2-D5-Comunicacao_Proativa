@@ -1,0 +1,71 @@
+[
+  {
+    "insured_id": "insured-001",
+    "name": "Ana Martins",
+    "location": {
+      "latitude": -15.7939,
+      "longitude": -47.8828,
+      "municipality": "Brasília"
+    },
+    "policies": [
+      {
+        "policy_id": "policy-001-home",
+        "policy_type": "HOME",
+        "status": "ACTIVE"
+      },
+      {
+        "policy_id": "policy-001-auto",
+        "policy_type": "AUTO",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "insured_id": "insured-002",
+    "name": "Bruno Almeida",
+    "location": {
+      "latitude": -25.4284,
+      "longitude": -49.2733,
+      "municipality": "Curitiba"
+    },
+    "policies": [
+      {
+        "policy_id": "policy-002-auto",
+        "policy_type": "AUTO",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "insured_id": "insured-003",
+    "name": "Carla Souza",
+    "location": {
+      "latitude": -19.9167,
+      "longitude": -43.9345,
+      "municipality": "Belo Horizonte"
+    },
+    "policies": [
+      {
+        "policy_id": "policy-003-home",
+        "policy_type": "HOME",
+        "status": "INACTIVE"
+      }
+    ]
+  },
+  {
+    "insured_id": "insured-004",
+    "name": "Diego Costa",
+    "location": {
+      "latitude": -30.0346,
+      "longitude": -51.2177,
+      "municipality": "Porto Alegre"
+    },
+    "policies": [
+      {
+        "policy_id": "policy-004-home",
+        "policy_type": "HOME",
+        "status": "ACTIVE"
+      }
+    ]
+  }
+]
