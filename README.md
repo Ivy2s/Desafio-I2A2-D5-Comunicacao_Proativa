@@ -4,7 +4,7 @@ MVP de uma ferramenta inteligente para comunicação proativa com segurados a pa
 
 ## Escopo atual
 
-O projeto está sendo desenvolvido incrementalmente. Este incremento consolida a arquitetura/contratos, as regras de seguro V1 e a fundação do Agente do Tempo:
+O projeto cobre hoje o fluxo completo do Desafio 5: coleta meteorológica, detecção de eventos, regras de seguro, geração de mensagens com LLM e envio simulado de notificações, com frontend React para demonstração:
 
 - arquitetura modular entre domínio, integrações, serviços e API;
 - regras V1 determinísticas do Rules Engine;
@@ -13,11 +13,14 @@ O projeto está sendo desenvolvido incrementalmente. Este incremento consolida a
 - consumo de observações SYNOP publicadas pelo INMET no WIS2;
 - normalização para um modelo interno independente da fonte;
 - detecção determinística de `HEAVY_RAIN`, `HAIL` e `STRONG_WIND`;
-- API HTTP mínima com FastAPI;
+- Agente de Mensagens: geração das comunicações via **Grok** (x.ai) com fallback determinístico de templates quando não há chave de API;
+- serviço de notificação que aplica exposição geográfica + regras, gera as mensagens, registra o envio **simulado** em `artifacts/sent_notifications.json`;
+- API HTTP com FastAPI: `/weather`, `/evaluate`, `/notify`, `/insureds`, `/rules`, `/health`;
+- frontend React (Vite + TypeScript) que demonstra o fluxo completo;
 - provider mock, testes sem dependência da internet e integração externa opt-in;
 - decisões técnicas documentadas para INMET/WIS2 e Grok.
 
-LLM, geração de mensagens e notificações continuam fora do escopo desta etapa. A decisão arquitetural para a etapa futura é utilizar o Grok exclusivamente na geração/personalização das mensagens; ele não participará da decisão de negócio, compatibilidade de apólice ou prioridade.
+O Grok é usado exclusivamente na geração/personalização das mensagens; ele não participa da decisão de negócio, compatibilidade de apólice ou prioridade — essas etapas permanecem determinísticas no Rules Engine.
 
 ## Arquitetura
 
@@ -106,9 +109,11 @@ O provider concreto combina duas interfaces públicas do INMET:
 
 As interfaces são encapsuladas por `INMETWeatherProvider`. A primeira foi escolhida por disponibilizar diretamente os avisos oficiais necessários para chuva intensa, granizo e vento; a coleção SYNOP complementa o evento com observações de temperatura, precipitação e vento.
 
-## Decisões futuras de IA
+## Decisões de IA — Agente de Mensagens (Grok)
 
-O LLM escolhido para uma etapa posterior é o **Grok**. Sua responsabilidade será gerar ou personalizar o texto após a produção de uma `NotificationDecision`. O Grok não deverá selecionar segurados, avaliar apólices, calcular prioridade ou substituir as regras determinísticas do Rules Engine. Nesta etapa não há integração com LLM.
+O LLM escolhido é o **Grok** (API da x.ai). Sua responsabilidade é gerar ou personalizar o texto após a produção de uma `NotificationDecision`. O Grok não seleciona segurados, não avalia apólices, não calcula prioridade e não substitui as regras determinísticas do Rules Engine.
+
+O [`ResilientMessageGenerator`](src/agents/message_agent.py) tenta o Grok primeiro; sem `GROK_API_KEY` ou em caso de falha, um `TemplateMessageGenerator` determinístico garante que o fluxo completo continue funcionando — cada resposta informa `generated_by` (`grok` ou `template`) para transparência da demo.
 
 ## Contrato `WeatherEvent`
 
@@ -146,11 +151,15 @@ Todos os timestamps do domínio são UTC-aware. O INMET informa observações em
 
 Requer Python 3.12 ou superior.
 
-```bash
-python3.12 -m venv .venv
-source .venv/bin/activate
-pip install -e '.[dev]'
-```
+## Inicialização rápida
+
+Um único comando prepara tudo (ambiente virtual, dependências Python, dependências e build do frontend) e sobe a aplicação:
+
+- Windows: `start.bat`
+- Linux/macOS: `./start.sh`
+- Alternativa multiplataforma, após os passos de instalação: `python main.py`
+
+A API e a interface ficam disponíveis em <http://127.0.0.1:8000>.
 
 ## Configuração
 
@@ -169,9 +178,12 @@ uvicorn src.main:app --reload
 Endpoints disponíveis:
 
 ```text
-GET /health
-GET /weather?latitude=-15.79&longitude=-47.93
+GET  /health
+GET  /weather?latitude=-15.79&longitude=-47.93
 POST /evaluate
+POST /notify
+GET  /insureds
+GET  /rules
 ```
 
 Exemplo:
@@ -197,7 +209,35 @@ curl -X POST 'http://127.0.0.1:8000/evaluate' \
 
 A saída contém somente `NotificationDecision[]`; ainda não há mensagens, LLM ou envio de notificações.
 
+`POST /notify` executa o fluxo completo a partir de um evento (mesmo payload do `/evaluate`): aplica o raio de exposição de 25 km, avalia as regras, gera a mensagem de cada segurado elegível via Grok (ou template determinístico), registra o envio simulado em `artifacts/sent_notifications.json` e retorna o status por segurado (`SIMULATED_SENT` ou `NOT_SENT`).
+
+`GET /insureds` lista o dataset de segurados e `GET /rules` expõe a matriz de regras do Rules Engine.
+
 Documentação interativa: <http://127.0.0.1:8000/docs>.
+
+## Frontend React
+
+O frontend (Vite + React + TypeScript) demonstra o fluxo completo: consulta meteorológica no INMET, seleção de evento (ou evento manual para demo), aplicação das regras e exibição das notificações geradas com envio simulado.
+
+Em desenvolvimento (com proxy para a API):
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Acesse <http://localhost:5173>.
+
+Em produção, o build é servido pela própria FastAPI:
+
+```bash
+cd frontend && npm run build
+cd ..
+uvicorn src.main:app
+```
+
+Acesse <http://127.0.0.1:8000> e a interface estará disponível na raiz.
 
 ## Testes
 

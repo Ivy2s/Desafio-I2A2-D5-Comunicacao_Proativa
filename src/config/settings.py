@@ -35,6 +35,11 @@ class Settings(BaseSettings):
     strong_wind_high_kmh: float = Field(default=80.0, gt=0)
     strong_wind_extreme_kmh: float = Field(default=100.0, gt=0)
 
+    grok_api_key: str | None = None
+    grok_model: str = "grok-4-fast-non-reasoning"
+    grok_base_url: str = "https://api.x.ai/v1"
+    sent_notifications_path: str = "artifacts/sent_notifications.json"
+
     @property
     def weather_thresholds(self) -> WeatherThresholds:
         return WeatherThresholds(

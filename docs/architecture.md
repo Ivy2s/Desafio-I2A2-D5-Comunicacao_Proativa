@@ -20,6 +20,22 @@ INMET Avisos + WIS2 SYNOP
         FastAPI /weather
 ```
 
+## Fluxo completo de comunicação proativa (POST /notify)
+
+```text
+WeatherEvent
+    ↓
+NotificationService
+    ├── CoordinateRadiusMatcher (exposição ≤ 25 km)
+    ├── InsuranceRulesEngine → NotificationDecision
+    ├── MessageGenerator (Grok → fallback template) → GeneratedMessage
+    └── persistência do envio simulado em artifacts/sent_notifications.json
+            ↓
+ProactiveNotification[] ──→ FastAPI /notify
+```
+
+Cada item da resposta carrega o segurado, a decisão determinística, a mensagem gerada, o status (`SIMULATED_SENT` ou `NOT_SENT`) e `generated_by` (`grok` ou `template`). A mensagem só é gerada para decisões elegíveis; o envio é sempre simulado.
+
 O domínio de seguros é mantido separado:
 
 ```text
@@ -60,7 +76,9 @@ O endpoint `POST /evaluate` recebe um DTO HTTP com os campos essenciais, convert
 
 ## Decisão de LLM
 
-O provedor de LLM escolhido para uma etapa posterior é o **Grok**. Ele será usado somente pelo futuro Message Agent para geração ou personalização de mensagens a partir de uma `NotificationDecision`. Não terá responsabilidade por matching geográfico, seleção de segurados, compatibilidade de apólices ou prioridade. Nenhum código de LLM faz parte desta etapa.
+O provedor de LLM é o **Grok** (x.ai). Ele é usado somente pelo `MessageGenerator` em `src/agents/message_agent.py`, para geração ou personalização de mensagens a partir de uma `NotificationDecision`. Não tem responsabilidade por matching geográfico, seleção de segurados, compatibilidade de apólices ou prioridade.
+
+`GrokMessageGenerator` chama a API compatível OpenAI da x.ai (`/chat/completions`); `TemplateMessageGenerator` produz mensagens determinísticas em português; `ResilientMessageGenerator` combina os dois, tentando o Grok e caindo no template em falha ou ausência de chave. Cada `GeneratedMessage` expõe `generated_by` para transparência.
 
 O `InsuranceRulesEngine` recebe um `WeatherEvent` e um `Insured`, avalia as regras declaradas e retorna uma única decisão por segurado/evento.
 
@@ -152,6 +170,22 @@ Recebe `LocationMatcher`, `InsuranceRulesEngine` e, opcionalmente, `InsuredRepos
 O matching geográfico do MVP é aplicado pelo `CoordinateRadiusMatcher` antes do Rules Engine. A presença de coordenadas próximas representa somente exposição potencial dentro da simplificação de 25 km; não é prova de cobertura, de área oficial de alerta ou de ocorrência de sinistro.
 
 Na coleção SYNOP, a geometria pode variar entre relatórios da mesma estação. Por isso, coordenadas não são usadas como identidade da estação. O provider agrupa primeiro pelo identificador WIGOS, evitando que uma posição antiga e mais próxima faça o sistema descartar uma observação mais recente da mesma estação. Avisos meteorológicos continuam sendo tratados separadamente no endpoint de alertas e não substituem `observed_at` da observação SYNOP.
+
+### `src/services/notification_service.py`
+
+`NotificationService` coordena a etapa final do desafio. Recebe `LocationMatcher`, `InsuranceRulesEngine`, `MessageGenerator`, `InsuredRepository` e o caminho de persistência por construtor. Para cada segurado exposto, avalia a decisão; somente decisões elegíveis geram mensagem. O envio é sempre simulado: nada é entregue externamente e o log é gravado em `artifacts/sent_notifications.json` (acrescido, sem sobrescrever histórico válido).
+
+### `src/api/routes/notify.py`
+
+Expõe `POST /notify` (mesmo DTO do `/evaluate`), `GET /insureds` e `GET /rules`. Não contém regras de negócio: apenas converte a borda HTTP para modelos de domínio e delega aos serviços.
+
+### `src/agents/message_agent.py`
+
+Contém o contrato `MessageGenerator`, `GrokMessageGenerator`, `TemplateMessageGenerator` e `ResilientMessageGenerator`, além do `GeneratedMessage` (texto + `generated_by`). O agente não decide elegibilidade nem prioridade; ele só redige o texto a partir da decisão.
+
+### `frontend/`
+
+Aplicação Vite + React + TypeScript. Em desenvolvimento, o Vite faz proxy de `/api` para a FastAPI. O build de produção (`frontend/dist`) é montado como estática na raiz da FastAPI quando existir. A interface demonstra: consulta meteorológica, seleção de evento (ou evento manual), regras, segurados e as notificações geradas com envio simulado.
 
 ## Escolha das interfaces do INMET
 
